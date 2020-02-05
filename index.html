@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Vue Components</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+  </head>
+  <body>
+    <div id="app">
+      <div class="grid-container full">
+      
+          <hero-banner></hero-banner>
+        
+      </div>
+
+      <div class="grid-container">
+        <title-section></title-section>
+        <profile-card></profile-card>
+      </div>
+
+      <div class="grid-container full">
+        <right-brief></right-brief>
+        <left-brief></left-brief>
+
+        <div class="login-box">
+          <div class="grid-x grid-padding-x">
+            <div class="small-12 medium-6 cell small-order-2 medium-order-1">
+                <login-box-form-section></login-box-form-section>
+            </div>
+            <div class="small-12 medium-6 cell small-order-1 medium-order-2 login-box-social-section">
+                <login-box-social-section-inner></login-box-social-section-inner>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="grid-container full">
+        <div class="grid-x grid-padding-x">
+          <div class="cell medium-12">
+            <p class="text-center">It is what it is</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
